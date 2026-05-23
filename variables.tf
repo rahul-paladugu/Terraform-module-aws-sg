@@ -16,5 +16,5 @@ variable "sg_cidr" {
 }
 
 variable "component" {
-  type = string
+  type = list
 }
