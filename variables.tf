@@ -30,3 +30,7 @@ variable "egress_ports" {
 variable "sg_protocol" {
   type = map
 }
+
+variable "component" {
+  type = string
+}
