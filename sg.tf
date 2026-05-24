@@ -1,6 +1,5 @@
 resource "aws_security_group" "main" {
-  name        = "allow_tls"
-  description = "Allow TLS inbound traffic and all outbound traffic"
+  description = "var.sg_description"
   vpc_id      = var.vpc_id
   tags = merge({Name = "sg-${var.components}-${local.common_name}"}, local.common_tags)
   egress {

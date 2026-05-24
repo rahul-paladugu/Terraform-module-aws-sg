@@ -14,3 +14,7 @@ variable "environment" {
 variable "components" {
   type = string
 }
+
+variable "sg_description" {
+  type = string
+}
