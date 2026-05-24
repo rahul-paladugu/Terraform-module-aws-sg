@@ -11,6 +11,6 @@ variable "environment" {
   type = string
 }
 
-variable "component" {
+variable "components" {
   type = list
 }
