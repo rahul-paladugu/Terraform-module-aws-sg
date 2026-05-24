@@ -1,5 +1,5 @@
 resource "aws_security_group" "main" {
-  description = "var.sg_description"
+  description = var.sg_description
   vpc_id      = var.vpc_id
   tags = merge({Name = "sg-${var.components}-${local.common_name}"}, local.common_tags)
   egress {
