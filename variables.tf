@@ -11,10 +11,6 @@ variable "environment" {
   type = string
 }
 
-variable "sg_cidr" {
-  type = list
-}
-
 variable "component" {
   type = list
 }
