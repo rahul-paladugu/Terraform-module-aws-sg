@@ -12,5 +12,5 @@ variable "environment" {
 }
 
 variable "components" {
-  type = list
+  type = string
 }
