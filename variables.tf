@@ -18,3 +18,7 @@ variable "components" {
 variable "sg_description" {
   type = string
 }
+
+variable "sg_name" {
+  type = string
+}
